@@ -2,7 +2,7 @@ services:
 
   emissor-service:
     build:
-      context: /emissor/.
+      context: emissor/.
       dockerfile: Dockerfile
     container_name: emissor-service
     ports:
